@@ -6,7 +6,7 @@
 # Made with Python3
 # (C) [@thajudecodes](https://github.com/Thajudecodes)
 # Copyright permission under MIT License
-# [License](https://github.com/thajudecodes/instagrm_bot/LICENSE)
+# [License](https://github.com/Thajudecodes/instagrm_bot/blob/9e1aaeae137c115c39bba9b9f13e3dded2af4cca/LICENSE)
 
 
 
