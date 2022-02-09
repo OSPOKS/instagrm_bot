@@ -6,7 +6,7 @@ Please fork this repository don't import code
 Made with Python3
 (C) @subinps
 Copyright permission under MIT License
-License -> https://github.com/thajudecodes/Instagram-Bot/blob/main/LICENSE
+License -> https://github.com/thajudecodes/instagrm_bot/LICENSE
 ```
 
 
