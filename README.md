@@ -4,9 +4,9 @@ The most advanced Instagram Downloader Bot.
 ```
 Please fork this repository don't import code
 Made with Python3
-(C) @thajudecodes
+(C) [@thajudecodes](https://github.com/Thajudecodes)
 Copyright permission under MIT License
-License -> https://github.com/thajudecodes/instagrm_bot/LICENSE
+[License](https://github.com/thajudecodes/instagrm_bot/LICENSE)
 ```
 
 
