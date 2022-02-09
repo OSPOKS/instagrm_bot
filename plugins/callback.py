@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2021 subinps
+#Copyright (c) 2022 Thajudheen
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -53,13 +53,13 @@ async def cb_handler(bot: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
-                    InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/armiy_v'),
+					InlineKeyboardButton("🤖Other Bots", url="https://t.me/nihaxcks"),
+                    InlineKeyboardButton("⚙️Update Channel", url="https://t.me/nihaxcks")
 				],
 				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-					InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+					InlineKeyboardButton("🔗Source Code", url="https://github.com/Thajudecodes/instagrm_bot"),
+					InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/Thajudecodes/instagrm_bot")
 				]
 			]
 			)
