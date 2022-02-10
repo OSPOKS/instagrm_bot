@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2021 subinps
+#Copyright (c) 2022 [(Thajudheen](https://github.com/Thajudecodes/instagrm_bot)
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
