@@ -75,16 +75,10 @@ async def download_insta(command, m, dir):
 
 
 def acc_type(val):
-    if(val):
-        return "🔒Private🔒"
-    else:
-        return "🔓Public🔓"
+    return "🔒Private🔒" if val else "🔓Public🔓"
 
 def yes_or_no(val):
-    if(val):
-        return "Yes"
-    else:
-        return "No"
+    return "Yes" if val else "No"
 
 #A functionUpload Content to Telegram
 async def upload(m, bot, chat_id, dir):
@@ -92,7 +86,7 @@ async def upload(m, bot, chat_id, dir):
     videos=glob.glob(f"{dir}/*.mp4")
     VDO=[]
     GIF=[]
-    
+
     for video in videos:
         try:
             has_audio = get_audio_properties(video)
@@ -100,9 +94,8 @@ async def upload(m, bot, chat_id, dir):
         except Exception as e:
             has_audio=None
             GIF.append(video)
-            pass
     PIC=glob.glob(f"{dir}/*.jpg")
-    
+
     print(f"Gif- {GIF}")
     print(f"\n\nVideo - {VDO}")
     print(f"\n\nPictures - {PIC}")
@@ -187,21 +180,21 @@ async def upload(m, bot, chat_id, dir):
                 await m.edit(f"Total: {total}\nUploaded: {up} Remaining to upload: {rm}")
     await m.unpin()
     await bot.send_message(
-        chat_id=chat_id,
-        text=f"Succesfully Uploaded {up} Files to Telegram.\nIf you found me helpfull Join My Updates Channel",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/armiy_v'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/nihaxcks")
-				],
-				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/Thajudecodes/instagrm_bot"),
-                    InlineKeyboardButton("⚡️Update Channel", url="https://t.me/nihaxcks")
-				]
-			]
-			)
-		)
+    chat_id=chat_id,
+    text=f"Succesfully Uploaded {up} Files to Telegram.\nIf you found me helpfull Join My Updates Channel",
+    reply_markup=InlineKeyboardMarkup(
+    [
+    [
+    			InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/armiy_v'),
+    			InlineKeyboardButton("🤖Other Bots", url="https://t.me/nihaxcks")
+    		],
+    		[
+    			InlineKeyboardButton("🔗Source Code", url="https://github.com/Thajudecodes/instagrm_bot"),
+    InlineKeyboardButton("⚡️Update Channel", url="https://t.me/nihaxcks")
+    		]
+    	]
+    	)
+    )
     total=TOTAL
     up=0
     rm=TOTAL
