@@ -105,7 +105,7 @@ python3 main.py
 Contributions are welcomed, But Kanging and editing a few lines wont make you a Developer.
 Fork the repo, Do not Import code.
 
-```
+```https://github.com/Thajudecodes/instagrm_bot/graphs/contributors
 
 #### Support
 
