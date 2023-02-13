@@ -50,7 +50,7 @@ async def download_insta(command, m, dir):
         if output:
             datetime_ist = datetime.now(IST)
             ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
-            msg="CURRENT_STATUS ⚙️ : <code>{}</code>\nLast Updated :<code>{}</code>".format(output.decode("UTF8"), ISTIME)
+            msg = f'CURRENT_STATUS ⚙️ : <code>{output.decode("UTF8")}</code>\nLast Updated :<code>{ISTIME}</code>'
             msg=msg.replace(f'{dir}/', 'DOWNLOADED : ')
             try:
                 await m.edit(msg)
@@ -65,7 +65,7 @@ async def download_insta(command, m, dir):
         if error:
             datetime_ist = datetime.now(IST)
             ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
-            ermsg="ERROR ❌ : <code>{}</code>\nLast Updated : <code>{}</code>".format(error.decode("UTF8"), ISTIME)
+            ermsg = f'ERROR ❌ : <code>{error.decode("UTF8")}</code>\nLast Updated : <code>{ISTIME}</code>'
             try:
                 await m.edit(ermsg)
             except:
